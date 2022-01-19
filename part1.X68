@@ -2,7 +2,9 @@
 START:                  
     LEA MESSAGE,A1
     MOVE.B #14, D0
+    MOVE.B D0, 1000
     TRAP #15
+    TRAP #2
     
 
 
