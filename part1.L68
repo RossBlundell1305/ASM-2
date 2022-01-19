@@ -1,0 +1,26 @@
+00001000 Starting Address
+Assembler used: EASy68K Editor/Assembler v5.16.01
+Created On: 19/01/2022 15:55:34
+
+00001000                             1      ORG    $1000
+00001000                             2  START:                  
+Line 3 ERROR: Undefined symbol
+00001000  43F9 004DBD16              3      LEA MESSAGE,A1
+00001006  103C 000E                  4      MOVE.B #14, D0
+0000100A  4E4F                       5      TRAP #15
+0000100C                             6      
+0000100C                             7  
+0000100C                             8  
+0000100C                             9  
+0000100C                            10  
+0000100C  FFFF FFFF                 11      SIMHALT
+00001010                            12      END    START        ; last line of source
+
+1 error detected
+No warnings generated
+
+
+SYMBOL TABLE INFORMATION
+Symbol-name         Value
+-------------------------
+START               1000

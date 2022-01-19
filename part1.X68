@@ -1,0 +1,18 @@
+    ORG    $1000
+START:                  
+    LEA MESSAGE,A1
+    MOVE.B #14, D0
+    TRAP #15
+    
+
+
+
+
+    SIMHALT
+MESSAGE DC.B 
+    END    START        ; last line of source
+
+*~Font name~Courier New~
+*~Font size~10~
+*~Tab type~1~
+*~Tab size~4~
