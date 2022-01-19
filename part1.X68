@@ -9,7 +9,7 @@ START:
 
 
     SIMHALT
-MESSAGE DC.B 
+MESSAGE DC.B 'PLEASE ENTER YOUR GAMER POINTS',0
     END    START        ; last line of source
 
 *~Font name~Courier New~
